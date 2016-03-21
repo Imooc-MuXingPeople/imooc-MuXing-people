@@ -31,3 +31,8 @@ HTML(5)、CSS(3)这俩个比较擅长，JavaScript的知识还比较欠缺一点
 ## 任务三：三栏式布局 <br>
 代码地址：https://github.com/Imooc-MuXingPeople/imooc-MuXing-people/blob/gh-pages/mission-3/index.htmlindex.html<br><br>
  demo："http://imooc-muxingpeople.github.io/imooc-MuXing-people/mission-3/ <br>
+ 
+ ## 任务四：定位和居中问题
+ 代码地址：https://github.com/Imooc-MuXingPeople/imooc-MuXing-people/blob/gh-pages/mission-4/index.html<br><br>
+
+demo：https://imooc-muxingpeople.github.io/imooc-MuXing-people/mission-4/<br>
