@@ -27,3 +27,7 @@ HTML(5)、CSS(3)这俩个比较擅长，JavaScript的知识还比较欠缺一点
 ## 任务二：零基础HTML及CSS编码（一）
  代码地址：https://github.com/Imooc-MuXingPeople/imooc-MuXing-people/blob/gh-pages/mission-2/index.html<br>
  demo：https://imooc-muxingpeople.github.io/imooc-MuXing-people/mission-2/index.html<br>
+ 
+## 任务三：三栏式布局 <br>
+代码地址：https://github.com/Imooc-MuXingPeople/imooc-MuXing-people/blob/gh-pages/mission-3/index.html">https://github.com/Imooc-MuXingPeople/imooc-MuXing-people/blob/gh-pages/mission-3/index.html  <br>
+ demo："http://imooc-muxingpeople.github.io/imooc-MuXing-people/mission-3/">http://imooc-muxingpeople.github.io/imooc-MuXing-people/mission-3/ <br>
