@@ -20,6 +20,10 @@ HTML(5)、CSS(3)这俩个比较擅长，JavaScript的知识还比较欠缺一点
 
 ###以上排名不分先后，根据加入团队时间排列，谢谢！！！
 
+## 团队介绍:
+ 代码地址：https://github.com/Imooc-MuXingPeople/imooc-MuXing-people/blob/Team-Introduce/index.html<br><br>
+ demo：https://imooc-muxingpeople.github.io/imooc-MuXing-people/Team-Introduce/#page1 <br>
+
 ## 任务一：零基础HTML编码
  代码地址：https://github.com/Imooc-MuXingPeople/imooc-MuXing-people/blob/gh-pages/mission-1/index.html<br><br>
  demo：https://imooc-muxingpeople.github.io/imooc-MuXing-people/mission-1/ <br>
@@ -35,3 +39,7 @@ HTML(5)、CSS(3)这俩个比较擅长，JavaScript的知识还比较欠缺一点
 ##  任务四：定位和居中问题<br>
 代码地址：https://github.com/Imooc-MuXingPeople/imooc-MuXing-people/blob/gh-pages/mission-4/index.html<br><br>
 demo：https://imooc-muxingpeople.github.io/imooc-MuXing-people/mission-4/<br>
+
+##  任务二十九：表单（一）单个表单项的检验<br>
+代码地址：https://github.com/Imooc-MuXingPeople/imooc-MuXing-people/mission-29/index.html<br><br>
+demo：https://imooc-muxingpeople.github.io/imooc-MuXing-people/mission-29/<br>
