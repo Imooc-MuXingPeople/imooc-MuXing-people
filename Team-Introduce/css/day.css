@@ -1,0 +1,48 @@
+.section2 {
+	position: relative;
+}
+.section2 .bg{
+	width:100%;
+	height:100%;
+}
+.section2 .content{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.section2 .banner-spring ul li{
+
+}
+.section2 .banner-spring img{
+	vertical-align: bottom;
+}
+.section2 .banner1{
+	text-align: left;
+	margin-top: 6%;
+	margin-left: 4%;
+}
+.section2 .banner2{
+	text-align: left;
+	margin-top: 3%;
+	margin-left: 18%;
+}
+
+#banner1-move{
+	visibility:hidden;
+	position:relative;
+	top:-300px;
+}
+#banner2-move{
+	visibility:hidden;
+	position:relative;
+	bottom: -300px;
+}
+.section2 .profile-spring{
+	display: none;
+	width: 25%;
+	position: absolute;
+	right: 5%;
+	top:0;
+}

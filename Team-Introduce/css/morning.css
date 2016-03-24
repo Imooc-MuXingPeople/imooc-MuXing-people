@@ -1,0 +1,29 @@
+.section5{
+  position: relative;
+  background-image: url(../img/winter-back.jpg);
+  background-size: cover;
+  font-size:15px;
+  font-family: 'Open Sans', sans-serif,'微软雅黑';
+  color: black;
+  text-align: center;
+}
+.section5 .content{
+  width:100%;
+  height:100%;
+  box-sizing: border-box;
+  color:white;
+  line-height:30px;
+  text-align: justify;
+  padding:0 10px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius:2px;
+}
+.first-p-name{
+  margin-top: 14%;
+  margin-left: 27%;
+}
+.statement{
+  margin-top: 1%;
+  margin-left: 13%;
+}

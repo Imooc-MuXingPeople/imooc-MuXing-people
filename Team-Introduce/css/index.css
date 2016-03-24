@@ -1,0 +1,50 @@
+/*body{
+	padding: 0;
+	margin: 0;
+	font-family: 微软雅黑;
+	font-weight: bold;
+	background-image: url(bg.gif);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+}
+.container{
+	width: 90%;
+}
+.task{
+	opacity: 0.65;
+	-moz-opacity: 0.65;
+	filter:alpha(opacity=65);
+	margin: auto;
+	padding: auto;
+	width: 400px;
+}
+.task button{
+	width: 160px;
+	height: 30px;
+	margin-left: 26px;
+	margin-top: 10px;
+	text-align: center;
+	background-color: transparent;
+	color: #000;
+	font-weight: bold;
+	border: 2px solid #000;
+	border-radius: 4px;
+	-webkit-transition:all 0.3s linear;
+}
+.task button:hover{
+	background-color: #fff;
+	color: #0CC	;
+	border: 2px solid #0CC;
+	-webkit-transition:all 0.2s linear;
+}
+.task button a{
+	text-decoration: none;
+	color: #000;
+}
+.task button a:hover{
+	color: #0CC;
+}
+*/

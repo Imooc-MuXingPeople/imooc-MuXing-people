@@ -1,0 +1,60 @@
+ body {
+            font-size: 25px;
+            font-family: 'Microsoft yahei';
+        }
+        input{
+            border: 2px solid #a8a8a8;
+            font-size: 25px;
+            border-radius: 5px;
+            outline: none;
+        }
+        .msg {
+            color: #a8a8a8;
+        }
+        
+        .error > label > input{
+            border-color: #e60000
+        }
+        .error > .msg {
+            color: #e60000;
+        }
+        .right  > label > input{
+            border-color: #55b53a;
+        }
+        .right > .msg {
+            color: #55b53a;
+        }
+        #above-box {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;            
+            width: 850px;            
+            padding: 100px;
+            margin: auto;      
+        }
+        #above-box > label > span {
+            position: absolute;
+            left: 0;
+            line-height: 80px;
+            font-weight: 700;
+        }
+        #above-box > a {
+            display: inline-block;
+            width: 140px;
+            height: 80px;
+            float: right;
+            line-height: 80px;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            background: #2f79ba;
+        }
+        #myName {
+            display: inline-block;
+            height: 80px;
+            line-height: 80px;
+            width: 670px;
+        } 

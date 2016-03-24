@@ -1,0 +1,35 @@
+.bg-summer>img{
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    left: -3%;
+}
+.intro1{
+    float: left;
+}
+.bg-summer{
+    position: relative;
+    background:rgba(255, 255, 255, 0.85)!important;
+    width: 50%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 14%;
+    text-align: left;
+}
+.section3{
+    background:url(../img/bg2.jpg) no-repeat;
+    background-size: cover;
+}
+.introduce{
+    font-size: 22px;
+    margin-top: -10%;
+    margin-left: -4%;
+}
+.myphoto{
+    width: 100px;
+    height: 100px;
+}
+strong{
+    font-family: "Microsoft YaHei!";
+    color: #886413;
+}
