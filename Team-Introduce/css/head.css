@@ -1,0 +1,78 @@
+.section1{
+  background-image: url(../img/head_bac.jpg);
+  background-size: cover;
+  position: relative;
+}
+/*.section1 .content{
+  width:100%;
+  height:100%;
+  box-sizing: border-box;
+  color:white;
+  line-height:30px;
+  text-align: justify;
+  padding:0 10px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius:2px;
+}
+.first-p-name{
+  margin-top: 5%;
+  margin-left: 17%;
+}
+.statement{
+  margin-top: 20%;
+  margin-left: 50%;
+  position:relative;
+  visibility:hidden;
+  top:-100px;}
+*/
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 微软雅黑;
+  font-weight: bold;
+  font-size: 22px;
+  background-image: url(../img/head_bac.jpg);
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+}
+.container{
+  width: 90%;
+}
+.task{
+  opacity: 0.65;
+  -moz-opacity: 0.65;
+  filter:alpha(opacity=65);
+  margin: 150px auto;
+  padding: 100px auto;
+}
+.task button{
+  width: 160px;
+  height: 50px;
+  margin-left: 26px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: transparent;
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+  border: 4px solid #000;
+  border-radius: 65px;
+  -webkit-transition:all 0.3s linear;
+}
+.task button:hover{
+  background-color: #fff;
+  color: #0CC ;
+  border: 2px solid #0CC;
+  -webkit-transition:all 0.2s linear;
+}
+.task button a{
+  text-decoration: none;
+  color: #000;
+}
+.task button a:hover{
+  color: #0CC;
+}
