@@ -40,6 +40,10 @@ HTML(5)、CSS(3)这俩个比较擅长，JavaScript的知识还比较欠缺一点
 代码地址：https://github.com/Imooc-MuXingPeople/imooc-MuXing-people/blob/gh-pages/mission-4/index.html<br><br>
 demo：https://imooc-muxingpeople.github.io/imooc-MuXing-people/mission-4/<br>
 
+##  任务五：零基础HTML及CSS编码（二）<br>
+代码地址：https://github.com/Imooc-MuXingPeople/imooc-MuXing-people/blob/gh-pages/mission-5/index.html<br><br>
+demo：https://imooc-muxingpeople.github.io/imooc-MuXing-people/mission-5/<br>
+
 ##  任务二十九：表单（一）单个表单项的检验<br>
 代码地址：https://github.com/Imooc-MuXingPeople/imooc-MuXing-people/blob/gh-pages/mission-29/index.html<br><br>
 demo：https://imooc-muxingpeople.github.io/imooc-MuXing-people/mission-29/<br>
