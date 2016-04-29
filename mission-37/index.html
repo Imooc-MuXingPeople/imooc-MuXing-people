@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>任务三十七：UI组件之浮出层</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+   <link rel="stylesheet" type="text/css" href="css/style-37.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="signin-link" id="loginLink">
+                <a href=""> 登录</a>
+            </li>
+        </ul>
+    </header>
+    <div class="box">
+        <div class="link link-miss">
+            <span class="icon"></span>
+            <a href="#" class="button" data="My misson is clear">
+                <span class="line line-top"></span>
+                <span class="line line-right"></span>
+                <span class="line line-bottom"></span>
+                <span class="line line-left"></span>
+                MISSION                
+            </a>
+        </div> 
+        <div class="link link-play">
+            <span class="icon"></span>
+            <a href="#" class="button" data="This is my playGroup">
+                <span class="line line-top"></span>
+                <span class="line line-right"></span>
+                <span class="line line-bottom"></span>
+                <span class="line line-left"></span>
+                PLAY                
+            </a>
+        </div> 
+        <div class="link link-touch">
+            <span class="icon"></span>
+            <a href="#" class="button" data="This is my Touch Demo">
+                <span class="line line-top"></span>
+                <span class="line line-right"></span>
+                <span class="line line-bottom"></span>
+                <span class="line line-left"></span>
+                TOUCH               
+            </a>
+        </div>
+        <div class="tip"><em></em><span></span></div>
+    </div>  
+
+    <div class="mask" id="mask"></div>
+    <div class="login-box" id="loginBox">
+            <div class="login-box-header" id="loginBoxHeader">
+                <h1>登录</h1>
+                <input class="close-btn" id="closeBtn" type="button" value="X" />
+            </div>
+
+            <div class="login-content">
+                <form method="post" action="signin.php">
+                    <input type="text" name="username" placeholder="请输入用户名/邮箱" />
+                    <input type="password" name="password" placeholder="请输入密码" />
+                    <input type="button" value="登录" />
+                </form>
+            </div>
+    </div>
+    <script type="text/javascript" src="js/script-37.js"></script>  
+</body>
+</html>
