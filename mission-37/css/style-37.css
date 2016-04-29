@@ -1,0 +1,64 @@
+header{
+    height:70px;
+    background-color:#2DCB70;
+    padding:0 15%;
+}
+
+.signin-link a{
+    display:inline-block;
+    text-align:center;
+    width:2em;
+    color:#fff;
+    font:1.5rem/3.125rem 'Microsoft YaHei';
+    text-decoration:none;
+}
+.signin-link a:hover{
+    background-color:#0AAF88;
+}
+#mask{
+    height:100%; 
+    width:100%; 
+    position:absolute; 
+    top:0; 
+    left:0; 
+    background:#000; 
+    opacity:0.5; 
+    filter:alpha( opacity=50); 
+}
+.login-box{
+    border:2px solid #99f;
+    width:300px;
+    height:200px;
+    background-color:#fff;
+    position:fixed;
+    z-index:2000;
+}
+.login-box-header{
+    height:40px;
+    border-bottom:1px solid #999;
+}
+.login-box-header:hover{
+    cursor:move;
+}
+.login-box-header h1{
+    font:20px/40px SimHei;
+    text-indent:1em;
+}
+.close-btn{
+    position:absolute;
+    top:6px;
+    right:1em;
+    width:28px;
+    height:28px;
+    line-height:28px;
+}
+.login-content{
+    box-sizing:border-box;
+    padding:0 15%;
+}
+.login-content input{
+    width:100%;
+    height:30px;
+    margin:5px 0;
+
+}
