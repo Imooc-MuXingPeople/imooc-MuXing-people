@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>任务三十八：UI组件之排序表格</title>  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>   
+  <style type="text/css">
+    *{
+      padding: 0;
+      margin: 0;
+    }
+    .container{
+      width: 600px;
+      margin: 30px auto;
+    }
+    #table{
+      width: 100%;
+      text-align: center;
+      border-collapse: collapse;
+     }
+    #title{
+      background-color: rgb(38, 38, 38);
+      color: #fff;
+    }
+    th,td{
+      height: 30px;
+      line-height: 30px;
+      border: 1px solid #eee;
+    }
+    /*th .tit{
+      background-image: url(../images/icon.jpeg);
+      background-repeat: no-repeat;
+      background-position: right;
+    }*/
+    #add{
+      width: 320px;
+      height: 35px;
+      color: blue;
+      font-size: 18px;
+      /*text-decoration:underline ;*/
+      font-weight: bold;
+    }
+  </style>
+ </head> 
+ <body> 
+       <table  id="table">   <!-- border="1" width="50%" --> 
+       <!-- <tr id="title">
+          <th>姓名</th>
+          <th class="tit" id="chinese">语文</th>
+          <th class="tit" id="math">数学</th>
+          <th class="tit" id="english">英语</th>
+          <th class="tit" id="total">总分</th>
+          <th class="tit" id="delete">删除</th>
+       </tr> --> 
+
+
+        <tr id="title" style="color: rgb(255, 255, 255); font-weight: bold; background: rgb(51, 51, 51);">
+            <td style="width: 150px; height: 55px; border: 1px solid rgb(204, 204, 204); position: relative;">姓名</td>
+            <td style="width: 150px; height: 55px; border: 1px solid rgb(204, 204, 204); position: relative;">
+                语文
+                <div style="width: 0px; height: 0px; border-left-width: 8px; border-left-style: solid; border-left-color: transparent; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; cursor: pointer; position: absolute; right: 30px; border-bottom-width: 10px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); top: 14px;"></div>
+                <div style="width: 0px; height: 0px; border-left-width: 8px; border-left-style: solid; border-left-color: transparent; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; cursor: pointer; position: absolute; right: 30px; border-top-width: 10px; border-top-style: solid; border-top-color: rgb(255, 255, 255); top: 30px;"></div>
+            </td>
+            <td style="width: 150px; height: 55px; border: 1px solid rgb(204, 204, 204); position: relative;">
+                数学
+                <div style="width: 0px; height: 0px; border-left-width: 8px; border-left-style: solid; border-left-color: transparent; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; cursor: pointer; position: absolute; right: 30px; border-bottom-width: 10px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); top: 14px;"></div>
+                <div style="width: 0px; height: 0px; border-left-width: 8px; border-left-style: solid; border-left-color: transparent; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; cursor: pointer; position: absolute; right: 30px; border-top-width: 10px; border-top-style: solid; border-top-color: rgb(255, 255, 255); top: 30px;"></div>
+            </td>
+            <td style="width: 150px; height: 55px; border: 1px solid rgb(204, 204, 204); position: relative;">
+                英语
+                <div style="width: 0px; height: 0px; border-left-width: 8px; border-left-style: solid; border-left-color: transparent; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; cursor: pointer; position: absolute; right: 30px; border-bottom-width: 10px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); top: 14px;"></div>
+                <div style="width: 0px; height: 0px; border-left-width: 8px; border-left-style: solid; border-left-color: transparent; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; cursor: pointer; position: absolute; right: 30px; border-top-width: 10px; border-top-style: solid; border-top-color: rgb(255, 255, 255); top: 30px;"></div>
+            </td>
+            <td style="width: 150px; height: 55px; border: 1px solid rgb(204, 204, 204); position: relative;">
+                总分
+                <div style="width: 0px; height: 0px; border-left-width: 8px; border-left-style: solid; border-left-color: transparent; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; cursor: pointer; position: absolute; right: 30px; border-bottom-width: 10px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); top: 14px;"></div>
+                <div style="width: 0px; height: 0px; border-left-width: 8px; border-left-style: solid; border-left-color: transparent; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; cursor: pointer; position: absolute; right: 30px; border-top-width: 10px; border-top-style: solid; border-top-color: rgb(255, 255, 255); top: 30px;"></div>
+            </td> 
+            <td style="width: 150px; height: 55px; border: 1px solid rgb(204, 204, 204); position: relative;">
+                删除
+            </td>
+
+        </tr>
+
+
+
+       <tr>
+        <td>小明</td>
+        <td>80</td>
+        <td>90</td>
+        <td>70</td>
+        <td>240</td>
+        <td><a href="javascript:;" >删除</a></td>   <!--在删除按钮上添加点击事件  -->
+       </tr>
+ 
+       <tr>
+        <td>小红</td>
+        <td>90</td>
+        <td>60</td>
+        <td>90</td>
+        <td>240</td>
+        <td><a href="javascript:;" >删除</a></td>   <!--在删除按钮上添加点击事件  -->
+       </tr>  
+        
+        <tr>
+         <td>小亮</td>
+         <td>60</td>
+         <td>100</td>
+         <td>70</td>
+         <td>230</td>
+         <td><a href="javascript:;" >删除</a></td>   <!--在删除按钮上添加点击事件  -->
+        </tr>
+
+       </table>
+       <input type="button" value="添加一行"  id="add"/>   <!--在添加按钮上添加点击事件  -->
+        
+       <script>
+           var add = document.getElementById("add");
+           var tbodyEle = document.querySelector("tbody");
+           var allTr = document.querySelectorAll("tr");
+           var trLen = allTr.length;
+           var allA = document.querySelectorAll("a");
+           var aLen = allA.length;
+            
+           function addLine (){
+               var trEle = document.createElement("tr");
+               var tdOne = document.createElement("td");
+               tdOne.innerHTML ="小" + (aLen + 1);
+               var tdTwo = document.createElement("td");
+               tdTwo.innerHTML =(aLen + 60);
+               var tdThree = document.createElement("td");
+               tdThree.innerHTML =(aLen + 68);
+               var tdFour = document.createElement("td");
+               tdFour.innerHTML =(aLen + 76);
+               var tdSum = document.createElement("td");
+               tdSum.innerHTML ="tdTwo" + "tdThree" + "tdFour";
+               var tdSum =document.createElement("td");
+               tdSum.innerHTML ="？";   //(aLen + 60);
+               // var tdF = document.createElement("td");
+               // tdTwo.innerHTML =(aLen + 60);
+               var tdThr = document.createElement("td");
+               tdThr.innerHTML = "<a href='javascript:;' >删除</a>";
+               trEle.appendChild(tdOne);
+               trEle.appendChild(tdTwo);
+               trEle.appendChild(tdThree);
+               trEle.appendChild(tdFour);
+               trEle.appendChild(tdSum);
+               trEle.appendChild(tdThr);
+               tbodyEle.appendChild(trEle);
+                
+               //每次添加一行更新tr和a节点。并为新添加的行绑定hover和delete事件
+               allTr = document.querySelectorAll("tr");
+               allA = document.querySelectorAll("a");
+               trLen++; aLen++;
+               console.log(allTr);console.log(allA);console.log(trLen);
+               hover();
+               deleteList();
+                
+            }
+           add.addEventListener("click", addLine);
+            
+            
+            
+           function hover(){
+               for(var i = 0;i < trLen; i++){
+                   allTr[i].addEventListener("mouseover", function(){this.style.backgroundColor = "";});  //#f2f2f2
+                   allTr[i].addEventListener("mouseout", function(){this.style.backgroundColor = "";}); //#fff
+               }
+           }
+           hover();
+            
+            
+ 
+            
+           function deleteList(){
+                
+                
+              function deleteLine(){
+                //每次删除一行更新tr和a节点。
+                this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode);
+                allTr = document.querySelectorAll("tr");
+                allA = document.querySelectorAll("a");
+                aLen--;trLen--;
+                console.log(allTr);console.log(allA);console.log(trLen);
+              }
+                
+              for(var i = 0; i < aLen; i++){     
+                  allA[i].addEventListener("click", deleteLine);
+              }
+           }
+           deleteList();
+ 
+            
+            
+       </script>
+ </body>
+</html>
